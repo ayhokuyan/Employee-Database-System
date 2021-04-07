@@ -1,0 +1,5 @@
+<% if(successMsg && successMsg != '') { %>
+    <div class="alert alert-success"><%= successMsg %></div>
+<% } else if(errorMsg && successMsg != '') { %>
+    <div class="alert alert-danger"><%= errorMsg %></div>
+<% } %>
